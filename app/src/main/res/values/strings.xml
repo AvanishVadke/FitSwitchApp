@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FitSwitchApp</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="new_user_register_here">New user? register here</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="existing_user_click_here">Existing user? Click here</string>
+    <string name="email_id">Email-ID</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login_string">Login</string>
+    <string name="login_button">Login Button</string>
+    <string name="new_registration">New Registration</string>
+    <string name="fitswitch_app">FitSwitch App</string>
+
+    <string name="title">BMI Calculator</string>
+    <string name="bmi_result">Your BMI: %.2f</string>
+    <string name="invalid_input">Please enter valid weight and height.</string>
+    <string name="enter_your_weight_kg">Enter your weight (kg):</string>
+    <string name="weight_in_kg">Weight in kg</string>
+    <string name="enter_your_height_m">Enter your height (m):</string>
+    <string name="height_in_meters">Height in meters</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="step_count_0">Step Count: 0</string>
+    <string name="steps_0">Steps: 0</string>
+    <string name="steps">"Steps: "</string>
+</resources>
