@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/tv_newReg"
-        android:layout_width="125.6dp"
+        android:layout_width="300.6dp"
         android:layout_height="53.6dp"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/new_registration"
         android:textColor="@color/login_color"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,7 +99,7 @@
 
     <TextView
         android:id="@+id/newUser"
-        android:layout_width="135dp"
+        android:layout_width="150dp"
         android:layout_height="25.1dp"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/existing_user_click_here"
