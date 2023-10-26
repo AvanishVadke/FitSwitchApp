@@ -45,4 +45,5 @@
     <string name="enter_weight_kg">Enter Weight (kg)</string>
     <string name="calculate_calories_burned">Calculate Calories Burned</string>
     <string name="calories_burned_0_kcal">Calories Burned: 0 kcal</string>
+    <string name="recommend_diet_plan">Recommend Diet Plan</string>
 </resources>
