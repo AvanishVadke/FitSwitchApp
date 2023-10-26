@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/_bg__android_large___1_ek2_color"
     tools:context=".CalorieCount">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/editTextSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_steps"
+        android:background="@drawable/input_rec"
+        />
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_weight_kg"
+        android:background="@drawable/input_rec"
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_calories_burned"
+        />
+
+    <TextView
+        android:id="@+id/textViewCaloriesBurned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calories_burned_0_kcal"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        />
+
+</LinearLayout>

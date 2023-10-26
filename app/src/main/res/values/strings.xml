@@ -41,4 +41,8 @@
     <string name="step_counter">Step Counter</string>
     <string name="calculate_steps">Calculate Steps</string>
     <string name="enter_weight_in_kg">Enter Weight (in kg)</string>
+    <string name="enter_steps">Enter Steps</string>
+    <string name="enter_weight_kg">Enter Weight (kg)</string>
+    <string name="calculate_calories_burned">Calculate Calories Burned</string>
+    <string name="calories_burned_0_kcal">Calories Burned: 0 kcal</string>
 </resources>
