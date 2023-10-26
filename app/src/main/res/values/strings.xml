@@ -34,4 +34,6 @@
     <string name="step_count_0">Step Count: 0</string>
     <string name="steps_0">Steps: 0</string>
     <string name="steps">"Steps: "</string>
+    <string name="heart_rate_n_a_bpm">Heart Rate: N/A BPM</string>
+    <string name="start_measurement">Start Measurement</string>
 </resources>
