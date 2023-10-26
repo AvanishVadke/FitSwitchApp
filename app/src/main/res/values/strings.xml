@@ -39,4 +39,6 @@
     <string name="fitswitch_app_head">FitSwitch App</string>
     <string name="bmi_calculator">BMI Calculator</string>
     <string name="step_counter">Step Counter</string>
+    <string name="calculate_steps">Calculate Steps</string>
+    <string name="enter_weight_in_kg">Enter Weight (in kg)</string>
 </resources>
