@@ -37,4 +37,6 @@
     <string name="heart_rate_n_a_bpm">Heart Rate: N/A BPM</string>
     <string name="start_measurement">Start Measurement</string>
     <string name="fitswitch_app_head">FitSwitch App</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="step_counter">Step Counter</string>
 </resources>

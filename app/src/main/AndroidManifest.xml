@@ -15,6 +15,15 @@
         android:theme="@style/Theme.FitSwitchApp"
         tools:targetApi="31">
         <activity
+            android:name=".Exercises"
+            android:exported="false" />
+        <activity
+            android:name=".DietPlan"
+            android:exported="false" />
+        <activity
+            android:name=".CalorieCount"
+            android:exported="false" />
+        <activity
             android:name=".Leardboard"
             android:exported="false" />
         <activity

@@ -74,11 +74,27 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        CardView goLeaderboard = findViewById(R.id.leaderboard);
-        goLeaderboard.setOnClickListener(new View.OnClickListener() {
+        CardView goCalorieCount = findViewById(R.id.calorieCount);
+        goCalorieCount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this,Leardboard.class));
+                startActivity(new Intent(HomeActivity.this, CalorieCount.class));
+            }
+        });
+
+        CardView goDietPlan = findViewById(R.id.dietSuggestion);
+        goDietPlan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, DietPlan.class));
+            }
+        });
+
+        CardView goExercise = findViewById(R.id.exercise);
+        goExercise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, Exercises.class));
             }
         });
     }
